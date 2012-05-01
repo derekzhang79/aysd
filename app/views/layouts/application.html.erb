@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aysd</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<header id="header">
+		<div class="container">
+			<div class="grid_full">
+				<a href="/"><%= image_tag 'logo.png', :alt => 'Website Design Tampa' %></a>
+			</div>
+		</div>
+	</header>
+	<header id="nav">
+		<div class="container">
+			<div class="grid_full">
+				<div id="navs">
+		            <ul>
+		                <li><%= link_to_unless_current 'Home', :controller => :application, :action => :index %></li>
+		                <li><%= link_to_unless_current 'Embroidery', :controller => :application, :action => :embroidery %></li>
+		                <li><%= link_to_unless_current 'Rhinestones', :controller => :application, :action => :rhinestones %></li>
+		                <li><%= link_to_unless_current 'Transfers', :controller => :application, :action => :transfers %></li>
+		                <li><%= link_to_unless_current 'Apparel', "http://atyourservicedesigns.logomall.com/default.aspx" %></li>
+		            </ul>
+		        </div>
+			</div>
+		</div>
+	</header>
+	<div id="content">
+		<%= yield %>
+	</div>
+	<header id="footer">
+		<div class="container">
+			<div class="grid_full">
+				<p>At Your Service Designs LLC, All Rights Reserved, 2012</p>
+				<p>Designed by <a href="http://www.gndfloor.com">Ground Floor Interactive</a></p>
+			</div>
+		</div>
+	</header>
+</body>
+</html>
