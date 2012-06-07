@@ -33,7 +33,7 @@ a img{border:none;}
 	position: relative;
 }
 
-.grid_1,.grid_1_1,.grid_2,.grid_3,.grid_full{
+.grid_1,.grid_1_1,.grid_2,.grid_2_2,.grid_3,.grid_full{
 	float:left;
 	position:relative;
 	margin-left:1%;
@@ -44,6 +44,7 @@ a img{border:none;}
 .grid_1_1   { width:31.2%;margin-top:50px;text-align:center;background-color:#edeeaf }
 .grid_2		{ width:64.667%;margin-top:20px }
 .grid_2_1   { width:100% }
+.grid_2_2	{ width:90%;margin-top:20px;text-align:center;margin-left:40px }
 .grid_3,
 .grid_full	{ width:98.0% }
 .grid_right	{ float:right }
@@ -71,6 +72,7 @@ html { overflow-y: auto; }
     margin-top: -15px;
 }
 #footer {
+    color: white;
     background-image:url('bottombg.png');
     text-align: center;
 	clear:both;
@@ -197,7 +199,7 @@ pre,code,tt { font: 1em 'andale mono', 'lucida console', monospace; line-height:
 		margin:0 auto
 	}
 	
-	.grid_1,.grid_1,.grid_2,.grid_3,.grid_full{
+	.grid_1,.grid_1,.grid_2,.grid_3,.grid_2_2,.grid_full{
 		float: none;
 		width:100%;
 		margin:0 0 2.5em;

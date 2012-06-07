@@ -1,7 +1,25 @@
 <section id="content">
 	<div class="container">
-		
 		<section class="cf">
+			
+		<div class="grid_2_2">
+		<!-- Carousel Slideshow-->
+		<div id="myCarousel" class="carousel slide">
+		  <!-- Carousel items -->
+			<div class="carousel-inner">
+				<div class="active item"><%= image_tag 'gfi/slideshow/carousel/social.jpg', "data-transition" => "boxRainGrow" %></div>
+				<div class="item"><%= link_to :action => :packages do %><%= image_tag 'gfi/slideshow/carousel/design.jpg', "data-transition" => "boxRandom" %><% end %></div>
+				<div class="item"><%= image_tag 'gfi/slideshow/carousel/dev.jpg', :alt => 'Web Design Tampa', "data-transition" => "fade" %></div>
+				<div class="item"><%= image_tag 'gfi/slideshow/carousel/branding.jpg', :alt => 'Website Design Tampa', "data-transition" => "fold" %></div>
+			</div>
+		  <!-- Carousel nav -->
+		  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+		  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+		</div>
+		<!-- End Carousel Slideshow-->
+		</div>
+		
+		
 		<div class="grid_2">
 			<div class="content-pad-right">
 			<h2>Welcome to At Your Service Designs</h2>

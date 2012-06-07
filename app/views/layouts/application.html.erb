@@ -3,7 +3,7 @@
 <head>
 	<link rel="shortcut icon" href="favicon.ico">
 	
-  <title>Aysd</title>
+  <title>At Your Service Designs</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -22,9 +22,9 @@
 				<div id="navs">
 		            <ul>
 		                <li><%= link_to_unless_current 'Home', :controller => :application, :action => :index %></li>
-		                <li><%= link_to_unless_current 'Embroidery', :controller => :application, :action => :embroidery %></li>
-		                <li><%= link_to_unless_current 'Rhinestones', :controller => :application, :action => :rhinestones %></li>
-		                <li><%= link_to_unless_current 'Transfers', :controller => :application, :action => :transfers %></li>
+		                <li><%= link_to_unless_current 'What We Do', :controller => :application, :action => :services %></li>
+		                <li><%= link_to_unless_current 'Gallery', :controller => :application, :action => :works %></li>
+		                <li><%= link_to_unless_current 'Contact Us', :controller => :application, :action => :contact %></li>
 		                <li><%= link_to_unless_current 'Apparel', "http://atyourservicedesigns.logomall.com/default.aspx" %></li>
 		            </ul>
 		        </div>

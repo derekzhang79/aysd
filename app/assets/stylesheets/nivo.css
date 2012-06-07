@@ -1,0 +1,92 @@
+/*
+Skin Name: Pascal Theme
+Skin URI: http://nivo.dev7studios.com
+Skin Type: fixed
+Image Width: 630
+Image Height: 235
+Description: A nice, light skin for the Nivo Slider.
+Version: 1.0
+Author: Gilbert Pellegrom & Pascal Gartner
+Author URI: http://dev7studios.com
+*/
+
+.theme-gfi.slider-wrapper {
+    background:url(gfi/slideshow/theme/slider.png) no-repeat;
+    margin:0 auto;
+    padding-top:17px;
+    position:relative;
+    width: 960px;
+    height: 475px;
+}
+
+.theme-gfi .nivoSlider {
+    position:relative;
+    width:912px;
+    height:428px;
+    margin-left:24px;
+    margin-top: 6px;
+    background:url(gfi/slideshow/theme/loading.gif) no-repeat 50% 50%;
+}
+.theme-gfi .nivoSlider img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display:none;
+}
+.theme-gfi .nivoSlider a {
+    border:0;
+    display:block;
+}
+
+.theme-gfi .nivo-controlNav {
+    background:url(gfi/slideshow/theme/controlnav.png) no-repeat;
+    width:251px;
+    height:40px;
+    position:absolute;
+    left:385px; /* Tweak this to center bullets */
+    bottom:-62px;
+    padding:8px 0 0 82px;
+    z-index:20;
+}
+
+.theme-gfi .nivo-controlNav a {
+    left: -62px;
+    display:block;
+    width:22px;
+    height:12px;
+    background:url(gfi/slideshow/theme/bullets.png) no-repeat;
+    text-indent:-9999px;
+    border:0;
+    float:left;
+}
+.theme-gfi .nivo-controlNav a.active {
+    background-position:0 -14px;
+}
+
+.theme-gfi .nivo-directionNav a {
+	display:none;
+    color:#61E191;
+}
+
+.theme-gfi .nivo-caption {
+    bottom:1px;
+    left:33%;
+    right:auto;
+    width:35%;
+    max-width:630px;
+    overflow:hidden;
+    background: #135e5a;
+    text-shadow: 1px;
+    font-family: 'Accidental Presidency';
+    color:#61E191;
+}
+.theme-gfi .nivo-caption p {
+    color:#61E191;
+    font-size:30px;
+    font-family: 'Accidental Presidency';
+}
+.theme-gfi .nivo-caption a { 
+    color:#61E191;
+    font-size:30px;
+    text-transform:uppercase;
+}

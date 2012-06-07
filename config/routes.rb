@@ -1,9 +1,9 @@
 Aysd::Application.routes.draw do
   root :to => 'application#index'
   
-  match 'embroidery' => 'application#embroidery'
-  match 'rhinestones' => 'application#rhinestones'
-  match 'transfers' => 'application#transfers'
+  match 'services' => 'application#services'
+  match 'works' => 'application#works'
+  match 'contact' => 'application#contact'
   match 'apparel' => 'application#apparel'
   # The priority is based upon order of creation:
   # first created -> highest priority.

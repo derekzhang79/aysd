@@ -1,0 +1,4 @@
+#Start carousel
+
+$ ->
+    $('.carousel').carousel()
