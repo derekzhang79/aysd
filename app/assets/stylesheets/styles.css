@@ -27,7 +27,7 @@ a img{border:none;}
 /* Grid - Fluid 960 grid
 -------------------------------------------------------------- */
 .container{
-	width:92%;
+	width:93%;
 	max-width:980px; /* <-- width-governor */
 	margin: 0 auto;
 	position: relative;
@@ -40,7 +40,7 @@ a img{border:none;}
 	margin-right:1%
 }
 
-.grid_1		{ width:28.9%;margin-top:50px;background-color:#a3a47f;padding-left:8px;padding-right:8px;margin-top:20px }
+.grid_1		{ width:29.6%;margin-top:50px;padding-left:8px;padding-right:8px;padding-top:8px;margin-top:20px }
 .grid_1_1   { width:31.2%;margin-top:50px;text-align:center;background-color:#edeeaf }
 .grid_2		{ width:64.667%;margin-top:20px }
 .grid_2_1   { width:100% }

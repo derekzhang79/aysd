@@ -2,7 +2,7 @@ Aysd::Application.routes.draw do
   root :to => 'application#index'
   
   match 'services' => 'application#services'
-  match 'works' => 'application#works'
+  match 'works' => 'application#gallery'
   match 'contact' => 'application#contact'
   match 'apparel' => 'application#apparel'
   # The priority is based upon order of creation:
