@@ -4,40 +4,94 @@
 		<section class="cf">
 		<div class="grid_full">
 			<div class="content-pad-right">
-			<h2>Some of Our Recent Works</h2>
+			<h2 class="paddingTop">Some of Our Recent Works</h2>
+			
+			  <div class="grid_2_2">
+    		<!-- Carousel Slideshow-->
+    		<div id="myCarousel" class="carousel slide">
+    		  <!-- Carousel items -->
+    			<div class="carousel-inner">
+    				<div class="active item"><%= image_tag 'carousel/whatwedo.png' %></div>
+    				<div class="item"><%= link_to :action => :packages do %><%= image_tag 'carousel/gallery.png' %><% end %></div>
+    				<div class="item"><%= image_tag 'carousel/contact.png', :alt => 'Web Design Tampa' %></div>
+    				<div class="item"><%= image_tag 'carousel/apparel.png', :alt => 'Website Design Tampa' %></div>
+    			</div>
+    		  <!-- Carousel nav -->
+    		  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    		  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    		</div>
+    		<!-- End Carousel Slideshow-->
+    		</div>
+			  
+			<h3>Transfers</h3>
 				<!--right-->
-			<div class="grid_1 grid_right">
-				<%= image_tag 'gallerypics/thumbs/alybullaholicthumb.jpg', :alt => 'Web Design Tampa' %>
-				<%= image_tag 'gallerypics/thumbs/fialybullsthumb.jpg', :alt => 'Web Design Tampa' %>
-				<%= image_tag 'gallerypics/thumbs/alymerrychristmasthumb.jpg', :alt => 'Web Design Tampa' %>
-				<%= image_tag 'gallerypics/thumbs/funinthesunthumb.png', :alt => 'Web Design Tampa' %>
-				<%= image_tag 'gallerypics/thumbs/groupbullsgatorsthumb.jpg', :alt => 'Web Design Tampa' %>
-				<%= image_tag 'gallerypics/thumbs/groupmytinithumb.jpg', :alt => 'Web Design Tampa' %>
-			</div>
-			<!--left-->
-			<div class="grid_1" style="clear:left">
-				<%= image_tag 'gallerypics/thumbs/enjoygroupthumb.jpg', :alt => 'Web Design Tampa' %>
-				<%= image_tag 'gallerypics/thumbs/alyericafallthumb.jpg', :alt => 'Web Design Tampa' %>
-				<%= image_tag 'gallerypics/thumbs/fiwildcatthumb.jpg', :alt => 'Web Design Tampa' %>
-				<%= image_tag 'gallerypics/thumbs/ericawildcatsthumb.jpg', :alt => 'Web Design Tampa' %>
-				<%= image_tag 'gallerypics/thumbs/seniortransferthumb.jpg', :alt => 'Web Design Tampa' %>
-				<%= image_tag 'gallerypics/thumbs/ilovegolfthumb.jpg', :alt => 'Web Design Tampa' %>
-				
-				
-			</div>
-			<!--mid-->
-			<div class="grid_1">
-				<%= image_tag 'gallerypics/thumbs/britericathumb.jpg', :alt => 'Web Design Tampa' %>
-				<%= image_tag 'gallerypics/thumbs/softballmomthumb.jpg', :alt => 'Web Design Tampa' %>
-				<%= image_tag 'gallerypics/thumbs/brittwildcatsthumb.jpg', :alt => 'Web Design Tampa' %>
-				<%= image_tag 'gallerypics/thumbs/ilovemydogthumb.jpg', :alt => 'Web Design Tampa' %>
-				<%= image_tag 'gallerypics/thumbs/alywildcatsthumb.jpg', :alt => 'Web Design Tampa' %>
-				<%= image_tag 'gallerypics/thumbs/ericayellowthumb.jpg', :alt => 'Web Design Tampa' %>
-				<%= image_tag 'gallerypics/thumbs/britfisantathumb.jpg', :alt => 'Web Design Tampa' %>
-			</div>	
-			</div>
-		</div>
-		</section>
+				<div class="grid_1 grid_right">  
+    			<%= image_tag 'gallerypics/thumbs/britericathumb.jpg', :alt => 'Transfers' %>
+  			</div>
+  			<!--left-->
+  			<div class="grid_1" style="clear:left">
+  				<%= image_tag 'gallerypics/thumbs/enjoygroupthumb.jpg', :alt => 'Transfers' %>
+  				<%= image_tag 'gallerypics/thumbs/seniortransferthumb.jpg', :alt => 'Transfers' %>
+  			</div>
+  			<!--mid-->
+  			<div class="grid_1">
+  				<%= image_tag 'gallerypics/thumbs/alyericafallthumb.jpg', :alt => 'Transfers' %>
+  			</div>
+    	</div>
+  	</div>
+	  </section>
+	  <hr class="galleryDiv">
+  		
+	  <section class="cf">
+		<div class="grid_full">
+			<div class="content-pad-right">
+  		<h3>Embroidery</h3>
+  			<!--right-->
+				<div class="grid_1 grid_right">  
+				  <%= image_tag 'gallerypics/thumbs/ilovemydogthumb.jpg', :alt => 'Embroidery' %>
+  			</div>
+  			<!--left-->
+  			<div class="grid_1" style="clear:left">
+				  <%= image_tag 'gallerypics/thumbs/funinthesunthumb.png', :alt => 'Embroidery' %>
+				  <%= image_tag 'gallerypics/thumbs/ilovegolfthumb.jpg', :alt => 'Embroidery' %>
+  			</div>
+  			<!--mid-->
+  			<div class="grid_1">
+				  <%= image_tag 'gallerypics/thumbs/softballmomthumb.jpg', :alt => 'Embroidery' %>
+  			</div>
+    	</div>
+  	</div>
+	  </section>
+	  <hr class="galleryDiv">
+  			
+  			
+  	<section class="cf">
+		<div class="grid_full">
+			<div class="content-pad-right">		
+  		<h3>Rhinestones</h3>
+  			<!--right-->
+				<div class="grid_1 grid_right">  
+				  <%= image_tag 'gallerypics/thumbs/alybullaholicthumb.jpg', :alt => 'Rhinestones' %>
+  				<%= image_tag 'gallerypics/thumbs/alymerrychristmasthumb.jpg', :alt => 'Rhinestones' %>
+  				<%= image_tag 'gallerypics/thumbs/groupmytinithumb.jpg', :alt => 'Rhinestones' %>
+  			</div>
+  			<!--left-->
+  			<div class="grid_1" style="clear:left">
+				  <%= image_tag 'gallerypics/thumbs/fiwildcatthumb.jpg', :alt => 'Rhinestones' %>
+  				<%= image_tag 'gallerypics/thumbs/ericawildcatsthumb.jpg', :alt => 'Rhinestones' %>
+  				<%= image_tag 'gallerypics/thumbs/alywildcatsthumb.jpg', :alt => 'Rhinestones' %>
+  				<%= image_tag 'gallerypics/thumbs/groupbullsgatorsthumb.jpg', :alt => 'Rhinestones' %>
+  			</div>
+  			<!--mid-->
+  			<div class="grid_1">
+				  <%= image_tag 'gallerypics/thumbs/ericayellowthumb.jpg', :alt => 'Rhinestones' %>
+  				<%= image_tag 'gallerypics/thumbs/britfisantathumb.jpg', :alt => 'Rhinestones' %>
+  				<%= image_tag 'gallerypics/thumbs/fialybullsthumb.jpg', :alt => 'Rhinestones' %>
+  				<%= image_tag 'gallerypics/thumbs/brittwildcatsthumb.jpg', :alt => 'Rhinestones' %>
+  			</div>
+    	</div>
+  	</div>
+	  </section>
 		
 	</div>
 </section>
