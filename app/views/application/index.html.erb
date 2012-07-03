@@ -7,10 +7,10 @@
 		<div id="myCarousel" class="carousel slide">
 		  <!-- Carousel items -->
 			<div class="carousel-inner">
-				<div class="active item"><%= image_tag 'carousel/whatwedo.png' %></div>
-				<div class="item"><%= link_to :action => :packages do %><%= image_tag 'carousel/gallery.png' %><% end %></div>
-				<div class="item"><%= image_tag 'carousel/contact.png', :alt => 'Web Design Tampa' %></div>
-				<div class="item"><%= image_tag 'carousel/apparel.png', :alt => 'Website Design Tampa' %></div>
+				<div class="active item"><%= link_to :action => :services do %><%= image_tag 'carousel/whatwedo.png' %><% end %></div>
+				<div class="item"><%= link_to :action => :gallery do %><%= image_tag 'carousel/gallery.png' %><% end %></div>
+				<div class="item"><%= link_to :action => :contact do %><%= image_tag 'carousel/contact.png', :alt => 'Web Design Tampa' %><% end %></div>
+				<div class="item"><a href="http://atyourservicedesigns.logomall.com/default.aspx"><%= image_tag 'carousel/apparel.png', :alt => 'Website Design Tampa' %></a></div>
 			</div>
 		  <!-- Carousel nav -->
 		  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
